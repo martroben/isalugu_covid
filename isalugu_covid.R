@@ -250,6 +250,7 @@ est_excess_vacc_deaths <- exp_vacc_deaths %>%
   round(0)
 
 
+# Display output
 stringr::str_c("\n\nEstimated excess deaths in vaccinated group in Estonia: ", est_excess_vacc_deaths,
                "\n(Jan-May 2021)\n\n") %>% cat
 
